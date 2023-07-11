@@ -307,3 +307,47 @@
   font-size: 10px;
   color: rgba(233, 222, 229, 0.74);
 }
+
+form{
+  
+  height: 300px;
+  width: 755px;
+  position: relative;
+  top: 330px;
+  left: 230px;
+  border-radius: 15px;
+
+
+ 
+}
+
+.form{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+}
+
+.form input{
+  border: none;
+  background-color: deeppink;
+  color: ghostwhite;
+  border-radius: 8px;
+  padding: 9px;
+  height: 30px;
+}
+.legend h2{
+  
+  
+  font-weight: bolder;
+}
+
+fieldset{
+  border-color: deeppink;
+}
+::placeholder{
+  color: ghostwhite;
+}
